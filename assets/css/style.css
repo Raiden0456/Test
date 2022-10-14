@@ -1,0 +1,151 @@
+body {
+  font-family: 'Museo Sans Cyrl';
+  background: #F0F0F0;
+
+}
+
+/* main 2 boxes */
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 57px;
+  padding: 0;
+  list-style: none;
+}
+.Rectangle_208 {
+  
+  width: 255px;
+  height: 242px;
+  margin-left: 83px;
+  background-color: rgba(106, 106, 106, 0.08);
+  
+}
+
+.Rectangle_230 {
+
+  
+  display: flex;
+  flex-direction: column;
+  width: 802px;
+  height: 242px;
+  margin-left: 83px;
+  background-color: rgba(106, 106, 106, 0.08);
+  
+}
+/**/
+
+/*headers in boxes*/
+.Rectangle_230_top_line {
+
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.text_208 {
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 13px;
+
+  
+  position: relative;
+  text-align: left;
+  top: 16px;
+  margin-left: 38px;
+
+  color: #242424;
+}
+
+.text_230 {
+  position: relative;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 13px;
+
+  text-align: left;
+  top: 16px;
+  margin-left: 29px;
+  color: #242424;
+ 
+
+  color: #242424;
+}
+
+.text_instruction {
+  position: relative;
+  
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 18px;
+
+  text-align: right;
+  top: 11px;
+  margin-right: 20px;
+  
+  text-decoration-line: underline;
+
+  color: #242424;
+}
+/**/
+
+/*boxes content*/
+.balance {
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 51px;
+  font-family: 'Museo Sans Cyrl';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 43px;
+
+  text-align: center;
+  color: #242424;
+}
+
+.ET_1_photo {
+  position: relative;
+  margin-right: 6.48px;
+  height: 40px;
+  width: 40px;
+  transform: rotate(-10.32deg);
+}
+
+.ET_2_photo{
+  position: relative;
+  height: 14px;
+  width: 14px;
+}
+
+.ET_1 {
+  filter: brightness(15%);
+  margin-left: 9px;
+  height: 38px;
+  width: 46px;
+}
+
+.ET_2 {
+  filter: brightness(15%);
+  height: 13px;
+  width: 15px;
+}
+
+.discounts_container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 70px;
+  margin-left: 112px;
+}
+/**/
