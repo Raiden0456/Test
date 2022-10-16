@@ -141,11 +141,58 @@ body {
 }
 
 .discounts_container {
+  font-weight: 600;
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  top: 70px;
-  margin-left: 112px;
+  justify-content: space-evenly;
+  top: 50px;
+}
+.discount {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+ 
+}
+.discounts_image {
+  position: relative;
+  filter: brightness(15%);
+  height: 39px;
+  width: 39px;
+}
+.text_phone {
+  position: relative;
+  right: 12px;
+  bottom: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #242424;
+  
+}
+.description {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  gap: 3.96px;
+}
+
+.red_text {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 37px;
+  height: 18px;
+  background: #FF1A1A;
+  border-radius: 4px;
+  transform: rotate(-12.65deg);
 }
 /**/
