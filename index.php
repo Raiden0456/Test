@@ -35,10 +35,10 @@
             <div class = "discounts_container">
 
                 <?php 
-                    $item_1 = array("cost" => "50", "image" => "phone", "red_discount" => "50%", "text" => "на звонки ST (x2)");
-                    $item_2 = array("cost" => "70", "image" => "book", "red_discount" => "30%", "text" => "на спецкурс");
-                    $item_3 = array("cost" => "100", "image" => "book2", "red_discount" => "50%", "text" => "на курс");
-                    $item_4 = array("cost" => "139", "image" => "book2", "red_discount" => "65%", "text" => "на курс");
+                    $item_1 = array("cost" => "50", "image" => "phone", "red_discount" => "50%", "text" => "на звонки ST (x2)", "button" => true);
+                    $item_2 = array("cost" => "70", "image" => "book", "red_discount" => "30%", "text" => "на спецкурс", "button" => false);
+                    $item_3 = array("cost" => "100", "image" => "book2", "red_discount" => "50%", "text" => "на курс", "button" => false);
+                    $item_4 = array("cost" => "139", "image" => "book2", "red_discount" => "65%", "text" => "на курс", "button" => false);
                     
                     $data = array($item_1, $item_2, $item_3, $item_4);
                     foreach($data as $item): 
