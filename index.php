@@ -9,6 +9,12 @@
     <title>Document</title>
 </head>
 <body>
+    <?php 
+    //Getting data from MySql//
+    
+
+    
+    ?>
     <div class = "boxes">
         <div class = "Rectangle_208">
             <h class = "text_208">
@@ -59,6 +65,9 @@
                             </div>
                             <?=$item["text"]?>
                         </div>
+                        <button class = "buttton_state" onclick="">
+                            Купить
+                        </button>
                     </div>
                 <?php endforeach; ?>
             </div>

@@ -195,4 +195,13 @@ body {
   border-radius: 4px;
   transform: rotate(-12.65deg);
 }
+.buttton_state {
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #FF1A1A;
+  border-radius: 10px;
+}
+.buttton_state:active {
+  background-color: lightgreen;
+}
 /**/
