@@ -12,17 +12,11 @@
 
 <body>
     <?php
-    session_start(); // Запускаем сессию
     include 'DB.php';
-    $host = "127.0.0.1";
-    $user = "root";
-    $password = "Nani1995";
-    $database = "Test_1";
-    $connect = new mysqli($host, $user, $password, $database);
-
+    
     //Getting products from MySql//
     $sql = "SELECT * FROM `products`";
-    $result = getBySql($sql, $connect);
+    $result = getBySql($sql);
     while ($obj = mysqli_fetch_object($result)) {
         $result_obj = new stdClass();
         $result_obj->id = $obj->id;
