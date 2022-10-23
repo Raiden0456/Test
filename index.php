@@ -12,6 +12,7 @@
 
 <body>
     <?php
+    session_start(); // Запускаем сессию
     include 'DB.php';
     $host = "127.0.0.1";
     $user = "root";
@@ -46,6 +47,9 @@
     }
 
     $result->free_result();
+
+    //Getting coins info of a user//
+
 
     ?>
     <div class="boxes">
